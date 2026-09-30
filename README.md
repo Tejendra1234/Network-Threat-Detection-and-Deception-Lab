@@ -1,6 +1,6 @@
 # Network Threat Detection and Deception Lab
 
-A hands-on network security lab built using Kali Linux and Windows 7 to understand and demonstrate network traffic prevention, detection, and deception techniques in a controlled VirtualBox environment.
+A hands-on network security lab built using Kali Linux and Windows 7 to demonstrate network traffic prevention, IDS-based detection, and honeypot-based deception in a controlled VirtualBox environment.
 
 ## Project Overview
 
@@ -29,7 +29,7 @@ The lab demonstrates:
 
 ## Architecture
 
-![Network Architecture](architecture/architecture-diagram.png)
+![Network Architecture](Architecture_Diagram.jpeg)
 
 ## Tools & Technologies
 
@@ -97,7 +97,7 @@ KF Sensor recorded the resulting scan activity and displayed the Kali IP address
 
 ## Evidence
 
-The `screenshots/` directory contains the evidence captured during the implementation of the project.
+The project folders contain the evidence captured during implementation.
 
 The screenshots cover:
 
@@ -107,6 +107,13 @@ The screenshots cover:
 4. Snort HTTP detection
 5. Snort FTP detection
 6. KF Sensor honeypot and Nmap scanning
+
+The evidence is organized into the following project folders:
+
+- `01_Lab_Setup/`
+- `02_Prevention/`
+- `03_Detection_Snort/`
+- `04_KF_Sensor_Deception/`
 
 ## Project Limitations
 
